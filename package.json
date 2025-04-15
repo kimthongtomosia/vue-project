@@ -13,15 +13,14 @@
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*",
     "format": "prettier --write src/",
-    "sass" : "sass src/assets/scss/style.scss src/assets/scss/style.css --watch"
-
+    "sass": "sass src/assets/scss/style.scss src/assets/scss/style.css --watch"
   },
   "dependencies": {
     "pinia": "^3.0.1",
     "sass": "^1.86.3",
     "sass-embedded": "^1.86.3",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",

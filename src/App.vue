@@ -8,6 +8,7 @@
 // }
 // import VModel from './views/VModelView.vue'
 import RegsiterView from './views/RegsiterView.vue'
+import HtmlTextComponent from './components/atoms/HtmlTextComponent.vue'
 </script>
 
 <template>
@@ -18,6 +19,8 @@ import RegsiterView from './views/RegsiterView.vue'
   <HelloWorld /> -->
   <!-- <VModel /> -->
   <RegsiterView />
+  <HtmlTextComponent />
+
   <!-- <div>Hello</div> -->
 </template>
 

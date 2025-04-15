@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import VModelView from '../views/VModelView.vue'
 import RegsiterView from '@/views/RegsiterView.vue'
+import HtmlTextComponent from '@/components/atoms/HtmlTextComponent.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/register',
       name: 'register',
       component: RegsiterView,
+    },
+    {
+      path: '/html-text',
+      name: 'html-text',
+      component: HtmlTextComponent,
     },
   ],
 })
