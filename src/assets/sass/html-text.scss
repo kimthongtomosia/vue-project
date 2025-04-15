@@ -1,0 +1,37 @@
+.html-text {
+  font-family: sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+
+  &__section {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  &__content {
+    margin-top: 0.5rem;
+    padding: 10px;
+    border: 1px dashed #eee;
+    background-color: #f9f9f9;
+
+    &--text {
+      color: #555;
+    }
+  }
+
+  &__separator {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+  }
+}
